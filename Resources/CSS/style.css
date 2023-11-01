@@ -36,7 +36,32 @@ a {
 /* Mission */
 
 .mission {
-  background-image: url();
-  height: 500px;
-  width: 100%;
+  background-image: url(../images/downtown-chicago-buildings-in-black-and-white-paul-velgos.jpg);
+  height: 600px;
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+.mission-text {
+  text-align: center;
+  background-color: white;
+  height: 250px;
+  width: 100%;
+  margin-top: 100px;
+} 
+
+.mission-text h2 {
+  font-size: 70px;
+  margin-top: 20px;
+}
+
+.mission-text p {
+  font-size: 50px;
+  width: 80%;
+  margin: -50px auto 0;
+}
+
