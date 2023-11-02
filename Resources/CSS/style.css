@@ -39,7 +39,7 @@ a {
 
 /* Mission */
 
-.mission {
+#mission {
   background-image: url(../images/downtown-chicago-buildings-in-black-and-white-paul-velgos.jpg);
   height: 600px;
   margin-top: 70px;
@@ -70,11 +70,11 @@ a {
 
 /* Portfolio */
 
-.portfolio h2 {
+#portfolio h2 {
   text-align: center;
 }
 
-.portfolio p {
+#portfolio p {
   font-size: 50px;
   width: 90%;
   margin: -50px auto 0;
@@ -103,4 +103,60 @@ a {
 .container figcaption {
   font-size: 50px;
   margin: 0 auto;
+}
+
+/* Team */
+
+#team h2 {
+  text-align: center;
+}
+
+.members {
+  background-image: url(../images/black-brick-building-wall-interior-modern-loft-background-design_73152-5446.avif);
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-wrap: wrap;
+  margin-top: -40px;
+}
+
+.team-member {
+  width: 300px;
+  color: white;
+  text-align: center;
+  margin-bottom: -50px;
+}
+
+.team-member img {
+  width: 300px;
+}
+
+.team-member h3 {
+  font-size: 50px;
+  margin-top: 20px;
+}
+
+.team-member p {
+  font-size: 40px;
+}
+
+/* Footer */
+
+#footer {
+  text-align: center;
+}
+
+#footer h2 {
+  margin-top: 40px;
+}
+
+#footer p {
+  font-size: 40px;
+}
+
+#footer .copyright {
+  margin-top: 150px;
 }
